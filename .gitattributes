@@ -1,0 +1,7 @@
+# Preserve exact package bytes; installer checks SHA-256 of every payload.
+package/** -text
+*.md text eol=lf
+*.py text eol=lf
+*.jsonl text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf

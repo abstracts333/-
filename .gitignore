@@ -1,0 +1,7 @@
+dist/
+__pycache__/
+*.pyc
+.srhd-zh-backup/
+*.log
+.env
+.test-work/

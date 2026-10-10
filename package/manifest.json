@@ -1,0 +1,153 @@
+{
+  "product": "srhd-simplified-chinese",
+  "version": "1.0",
+  "gameVersion": "Steam English 2.1.2500",
+  "files": [
+    {
+      "path": "Rangers.exe",
+      "kind": "patch",
+      "payload": "Patches/Rangers.exe.json",
+      "payloadHash": "b67be6ca5f7230db94d13b6833b7475d2aeee291e2e1fa29884f827250b8894f",
+      "before": "83300344af802bc51e64389c58f047e5afdf195c133048098be3881fae29ed98",
+      "after": "f08ea13a519c8f46d33bf1e6c0822e35824f9c0a7c52ddc2185fd5a70429f50c"
+    },
+    {
+      "path": "steam_ach.dll",
+      "kind": "patch",
+      "payload": "Patches/steam_ach.dll.json",
+      "payloadHash": "528cb10f1e8c55fa1a042baee91c988766a1499c65371604ccbfde9b86439885",
+      "before": "884f1f2f8d85083c25b0ab5e9ded8743dd9762031bd06b8507ebae6811c39a86",
+      "after": "158ff09f9364542cf669ad5f39fb1ddfa4606b9d467d73fb2c806ab6c747c55a"
+    },
+    {
+      "path": "DATA/english.pkg",
+      "kind": "copy",
+      "payload": "Payload/DATA/english.pkg",
+      "payloadHash": "372b9007d153d2415dc3a2b7b4d66ee9b54b78b9adfbe4ac98f6e06942eacb7f",
+      "before": "25a308bb5992b0f7e210a6518ea8b3d4e94e0948a5c64561dc9e7457a7e4dcfe",
+      "after": "372b9007d153d2415dc3a2b7b4d66ee9b54b78b9adfbe4ac98f6e06942eacb7f"
+    },
+    {
+      "path": "Mods/Tweaks/German/ModuleInfo.txt",
+      "kind": "copy",
+      "payload": "Payload/Mods/Tweaks/German/ModuleInfo.txt",
+      "payloadHash": "b813602e507f7c4c0975e41c2a5d8558dace94b599be9a482e563e98cafb8098",
+      "before": "9073eacffa80d6994bc10e952c58d402c13a41b7e2f41a67b75dc7a1745202a2",
+      "after": "b813602e507f7c4c0975e41c2a5d8558dace94b599be9a482e563e98cafb8098"
+    },
+    {
+      "path": "Mods/Tweaks/Spanish/ModuleInfo.txt",
+      "kind": "copy",
+      "payload": "Payload/Mods/Tweaks/Spanish/ModuleInfo.txt",
+      "payloadHash": "7497d5682387382c98095e2f21b626ab0bc879d739bdcb11f76130fd9771ba4b",
+      "before": "af2d046007a75cfbf49dd37b025a48eb07ad5ee7a147c6b34c39d8bbf80679a2",
+      "after": "7497d5682387382c98095e2f21b626ab0bc879d739bdcb11f76130fd9771ba4b"
+    },
+    {
+      "path": "Mods/Tweaks/LeoDomikShipsUpdate15/ModuleInfo.txt",
+      "kind": "copy",
+      "payload": "Payload/Mods/Tweaks/LeoDomikShipsUpdate15/ModuleInfo.txt",
+      "payloadHash": "ce5db686af95fe2ec386d636956749a0175b45226a015ac992189a428025633a",
+      "before": "c48d219e2d3fa588ae8f0d624c5a0635e95596ab6101a9b90b5f9128c10d86d0",
+      "after": "ce5db686af95fe2ec386d636956749a0175b45226a015ac992189a428025633a"
+    },
+    {
+      "path": "Mods/Tweaks/LeoDomikShipsUpdate30/ModuleInfo.txt",
+      "kind": "copy",
+      "payload": "Payload/Mods/Tweaks/LeoDomikShipsUpdate30/ModuleInfo.txt",
+      "payloadHash": "b55e84e2aa64d576a50f6007ed75ccfa2947789f879f89906fe7590667b1ef85",
+      "before": "8706c43c4e9580fedb4632f6f037e7de57a58fd5936408cfc9c388c4cc2a93cd",
+      "after": "b55e84e2aa64d576a50f6007ed75ccfa2947789f879f89906fe7590667b1ef85"
+    },
+    {
+      "path": "Mods/Tweaks/SR2LoadingScreen/ModuleInfo.txt",
+      "kind": "copy",
+      "payload": "Payload/Mods/Tweaks/SR2LoadingScreen/ModuleInfo.txt",
+      "payloadHash": "73cf7e285965da048b3d0180b864039a33ff383f477b897464de399f6f310376",
+      "before": "17e83aa1a820e1fe386e5d2765e987b19dd7ce3cd7df7abdab6aad5b8c4cc8a5",
+      "after": "73cf7e285965da048b3d0180b864039a33ff383f477b897464de399f6f310376"
+    },
+    {
+      "path": "Mods/Tweaks/SR2PQuestStyle/ModuleInfo.txt",
+      "kind": "copy",
+      "payload": "Payload/Mods/Tweaks/SR2PQuestStyle/ModuleInfo.txt",
+      "payloadHash": "688b19cd0ab63a8b8f4c2be03dbd6b79d9a63233e29d308fb34b32746ab9b7f6",
+      "before": "2198c62303ada3e2d50eebc51f4dc3013bf548bbcc845c87bcdf86673bc34cbd",
+      "after": "688b19cd0ab63a8b8f4c2be03dbd6b79d9a63233e29d308fb34b32746ab9b7f6"
+    },
+    {
+      "path": "Mods/Tweaks/Chinese/CFG/CacheData.dat",
+      "kind": "copy",
+      "payload": "Payload/Mods/Tweaks/Chinese/CFG/CacheData.dat",
+      "payloadHash": "7ba6211f3be49b9c16851625159125722860a19d93d46c6b59dcff1f3c4214a4",
+      "before": null,
+      "after": "7ba6211f3be49b9c16851625159125722860a19d93d46c6b59dcff1f3c4214a4"
+    },
+    {
+      "path": "Mods/Tweaks/Chinese/CFG/Eng/Lang.dat",
+      "kind": "copy",
+      "payload": "Payload/Mods/Tweaks/Chinese/CFG/Eng/Lang.dat",
+      "payloadHash": "6b4b9c061cbf5fa5d5b0f140d0d2fbc6b1eefd9d858a2b0bdf33934eb3091bd9",
+      "before": null,
+      "after": "6b4b9c061cbf5fa5d5b0f140d0d2fbc6b1eefd9d858a2b0bdf33934eb3091bd9"
+    },
+    {
+      "path": "Mods/Tweaks/Chinese/CFG/Main.dat",
+      "kind": "copy",
+      "payload": "Payload/Mods/Tweaks/Chinese/CFG/Main.dat",
+      "payloadHash": "af1999844d5f13bb555afdea1c26e2d3288a85fb2144bb5c0f616ed2e5fb9e8d",
+      "before": null,
+      "after": "af1999844d5f13bb555afdea1c26e2d3288a85fb2144bb5c0f616ed2e5fb9e8d"
+    },
+    {
+      "path": "Mods/Tweaks/Chinese/DATA/chinese.pkg",
+      "kind": "copy",
+      "payload": "Payload/Mods/Tweaks/Chinese/DATA/chinese.pkg",
+      "payloadHash": "00a477e55faac15c6968b09e01bfedc773cc4b6f6580012611cffd16fd99ff4d",
+      "before": null,
+      "after": "00a477e55faac15c6968b09e01bfedc773cc4b6f6580012611cffd16fd99ff4d"
+    },
+    {
+      "path": "Mods/Tweaks/Chinese/DATA/questsChinese.pkg",
+      "kind": "copy",
+      "payload": "Payload/Mods/Tweaks/Chinese/DATA/questsChinese.pkg",
+      "payloadHash": "6c5d3bfc0e5b5b13833b5948bb21dd6dcd86a11f5e2e6f3f9f456f03e1b35b0c",
+      "before": null,
+      "after": "6c5d3bfc0e5b5b13833b5948bb21dd6dcd86a11f5e2e6f3f9f456f03e1b35b0c"
+    },
+    {
+      "path": "Mods/Tweaks/Chinese/INSTALL_ENGLISH.TXT",
+      "kind": "copy",
+      "payload": "Payload/Mods/Tweaks/Chinese/INSTALL_ENGLISH.TXT",
+      "payloadHash": "15a37cd6eb24eb7b31542aea15d85810814268a055d1ebe18265cebc62f5e57a",
+      "before": null,
+      "after": "15a37cd6eb24eb7b31542aea15d85810814268a055d1ebe18265cebc62f5e57a"
+    },
+    {
+      "path": "Mods/Tweaks/Chinese/ModuleInfo.txt",
+      "kind": "copy",
+      "payload": "Payload/Mods/Tweaks/Chinese/ModuleInfo.txt",
+      "payloadHash": "b1784a1b135c688b788b3f5494ecd64e49dd69fa227b197ed76d4167c1092837",
+      "before": null,
+      "after": "b1784a1b135c688b788b3f5494ecd64e49dd69fa227b197ed76d4167c1092837"
+    }
+  ],
+  "validation": [
+    {
+      "path": "CFG/Main.dat",
+      "hash": "2544c91df96508a0e94b383b980d2344d792534f8d2c502ada30d6a99a44281a"
+    },
+    {
+      "path": "CFG/CacheData.dat",
+      "hash": "85a7ed400188bad9e6b22aef28adc456fad78a85d3cb343ecd7e1e6a1c463c32"
+    },
+    {
+      "path": "CFG/Eng/Lang.dat",
+      "hash": "bf870591e96e0f57451b4bac829c43d866972ba093fddd9045ad131b1a99c435"
+    },
+    {
+      "path": "DATA/questsEng.pkg",
+      "hash": "a981e963d8e3df3ce717bb3a7128ed13347b681a58add3cc1e030c3ef246b4bf"
+    }
+  ]
+}

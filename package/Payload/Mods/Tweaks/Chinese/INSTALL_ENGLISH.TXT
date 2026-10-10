@@ -1,0 +1,4 @@
+Packages {
+	Package=Mods\Tweaks\Chinese\DATA\chinese.pkg
+	Package=Mods\Tweaks\Chinese\DATA\questsChinese.pkg
+}
